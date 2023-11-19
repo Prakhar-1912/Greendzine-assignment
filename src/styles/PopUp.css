@@ -1,0 +1,28 @@
+.alert {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #f44336;
+    color: white;
+    width: 60%;
+    z-index: 999; /* Adjust the z-index to ensure it's above other elements on the page */
+  }
+  
+  .close-btn {
+    margin-left: auto; /* Use auto margin to push the close button to the right */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .close-btn:hover {
+    color: black;
+  }
+  

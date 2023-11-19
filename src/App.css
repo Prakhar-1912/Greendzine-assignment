@@ -1,0 +1,345 @@
+/* signup and signin page css */
+.login {
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-body {
+  width: 30vw;
+  height: 85vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.login-logo {
+  background: transparent 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  opacity: 1;
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 70%;
+}
+
+.login-heading {
+  color: #36a546cc;
+  border: 1px solid #000;
+  font-size: 21px;
+}
+
+.login-form-text {
+  color: #36a546;
+  font-size: 15px;
+}
+
+.signup-text {
+  font-size: 15px;
+  color: white;
+}
+
+a {
+  cursor: pointer;
+  color: #36a546;
+  text-decoration: none;
+}
+
+.login-form > input {
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+  padding: 1em;
+  border: 2px solid #000;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.login-btn {
+  color: white;
+  padding: 1em;
+  border-radius: 20px;
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8cff0026;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .login-body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+  }
+
+  .login-logo {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+/* Dashboard page css */
+.dashboard {
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dashboard-container {
+  width: 30vw;
+  height: 90vh;
+  background-color: #000;
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contact-logo {
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.moptro-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.dashboard-items {
+  color: white;
+  border-radius: 20px;
+  margin: 10px;
+  background: #5e5e5e50 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  flex-shrink: 0;
+}
+
+.dashboard-items > h2 {
+  font: normal normal bold 18px/25px Source Sans Pro;
+  letter-spacing: 0.01px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #1a2c2c99;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0px;
+  opacity: 0.84;
+}
+
+.productivity {
+  padding: 30px 20px;
+}
+
+.productivityData {
+  padding: 8px 8px;
+}
+
+.productivityData-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 2px;
+}
+
+.productivityData-list > h2 {
+  font-size: 16px;
+  margin: 0px;
+}
+.productivityData-list > span {
+  font-size: 16px;
+  color: #36a546;
+  margin: 0px;
+}
+
+.progressbar {
+  /* max-width: 250px; */
+  height: 10px;
+  border-radius: 50px;
+  background-color: #36a54680;
+  border: 1px solid #36a546;
+}
+
+@media (max-width: 768px) {
+  .moptro-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .dashboard-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    border-radius: 40px;
+    flex: 1;
+    position: relative;
+  }
+  .productivityData-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px 5px;
+  }
+  .productivityData-list > h2 {
+    font: normal normal normal 12px/16px Mulish;
+    letter-spacing: 0.01px;
+    font-size: 18px;
+    line-height: 16px;
+    margin: 0px;
+  }
+  .productivityData-list > span {
+    font: normal normal normal 12px/16px Mulish;
+    font-size: 20px;
+    color: #36a546;
+    margin: 0px;
+  }
+  .productivityData {
+    padding: 15px 8px;
+  }
+  .productivity {
+    padding: 25px 20px;
+  }
+}
+
+/* footer css */
+
+.fotter {
+  background: transparent linear-gradient(262deg, #0f2323 0%, #0f2323 40%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: inset 8px 4px 4px #00000040;
+  mix-blend-mode: normal;
+  color: #36a546;
+  border: 1px solid #0f2323;
+  border-radius: 90px;
+  position: absolute;
+  display: flex;
+  font-size: 30px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px 0px;
+  overflow: hidden;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50px;
+  margin: 10px;
+}
+
+/* employee page CSS */
+
+.Employee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 30px;
+}
+
+.search-box input {
+  background: #5e5e5e82 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #595959;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin-top: 15px;
+  opacity: 0.8; 
+}
+
+.search-box input::placeholder {
+  text-align: center;
+  font: normal normal bold 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #ffffffb3;
+  opacity: 1; 
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px; 
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  padding-top: 16px;
+}
+
+.employee-list{
+  height: 60vh; 
+  overflow-y: auto;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.employee-card{
+  width: 80%;
+  color: #fff;
+  background: #5e5e5e82 0% 0% no-repeat padding-box;
+  border: 1px solid #595959;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  opacity: 0.4;
+}
+
+.employee-card > h2{
+  color: #fff;
+  font: normal normal bold 16px/21px Mulish;
+  opacity: 1;
+}
+
+.employee-card > h2:nth-child(3) {
+  color: orange;
+}
+
+.employee-card > h2:nth-child(4) {
+  color: green; 
+}
